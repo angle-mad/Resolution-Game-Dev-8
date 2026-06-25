@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2048cupcakes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="Popup" class="overlay">
+  <div class="overlay-content">
+    <h2>Welcome to Rainbow Snake</h2>
+    <p>Use the arrow keys to move your snake. Earn points by eating fruit. Also eating a fruit makes the snake longer. Good Luck and Have Fun!</p>
+    <button id="CloseBtn">Eat some fruit!</button>
+
+  </div>
+</div>
+
+
+  <div class="game-ui">
+    <h1>Rainbow Snake</h1>
+    <p>Reminder: Use arrow keys to start moving</p>
+    <div class="score-bar">
+      <div>Score: <span id="score">0</span></div>
+      <button id="restart">Restart</button>
+      
+    </div>
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
